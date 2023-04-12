@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(244, 210, 158);
+            margin: 0px;
+        }
+
+        header{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(223, 126, 126);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.505);
+           
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+
+        article{
+            background-color: azure;
+
+        }
+
+        article > aside{
+            background-color: aquamarine;
+        }
+
+        footer{
+            background-color: rgb(147, 128, 165);
+            text-align: center;
+            color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+   <h1>Meu site</h1>
+   <nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+   </nav>
+   </header>
+   <main>
+    <section id="noticias">
+      <article>
+        <aside>
+            <h2>noticia sobre a uninassau</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsum sint dignissimos assumenda ea ipsa fugiat enim, error vel itaque architecto aperiam doloribus autem, officiis magnam accusantium ad necessitatibus velit.</p>
+        </aside>
+      </article>
+      <article>
+
+      </article>
+
+    </section>
+   </main>
+   <footer>
+    <p>desenvolvido por dudinha</p>
+   </footer>
+   <div id="bola">
+
+   </div>
+
+</body>
+</html>
