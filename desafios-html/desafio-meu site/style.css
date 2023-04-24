@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: #84e1ad;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(56, 203, 121), rgb(41, 148, 87), rgb(26, 92, 56));
+    padding: 30px;
+    margin: 0px;
+  
+
+}
+
+header > h1{
+    font-family:'Roboto Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+    margin-top: 8px;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+header > a{
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+header > a:visited {
+color:white;
+}
+
+header > a:active{
+    color: rgb(21, 49, 25);
+}
+
+
+
+main{
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.581);
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+main > h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(23, 58, 23);
+}
+
+main > h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(63, 216, 63, 0.536);
+    color: rgb(23, 58, 23);
+    
+}
+
+a{
+    text-decoration: dotted;
+}
+
+a:visited{
+    color: rgb(23, 58, 23);
+   
+}
+
+main > iframe{
+    width: 750px;
+    height: 100pxpx;
+    margin: 20px;
+}
+
+main > header{
+    color: white;
+   
+}
+
+main > div{
+   background-color:rgba(40, 164, 94, 0.289);
+   border-radius: 10px;
+   width: auto;
+   height: 400px;
+   padding: 70px;
+}
+footer{
+    background-color:  rgb(6, 103, 59);
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+
